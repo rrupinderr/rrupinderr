@@ -18,76 +18,75 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Calculate Experience Years
-        id: calculate
+      - name: Calculate and Update Experience Years
+        id: update
         run: |
           python3 << 'EOF'
           from datetime import date
+          import re
           import os
 
+          # Calculate experience years
           start_date = date(2021, 7, 1)
           current_date = date.today()
-
-          # Calculate days difference
           days = (current_date - start_date).days
-
-          # Calculate years with one decimal place
           years = days / 365.25
           years_formatted = f"{years:.1f}"
 
-          # Write to GITHUB_OUTPUT
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-              f.write(f"years={years_formatted}\n")
-
-          print(f"Calculated experience: {years_formatted} years")
-          EOF
-
-      - name: Update README
-        run: |
-          YEARS="${{ steps.calculate.outputs.years }}"
-
-          python3 << 'EOF'
-          import re
-
-          years = "${{ steps.calculate.outputs.years }}"
+          print(f"📅 Calculated experience: {years_formatted} years (from {start_date} to {current_date})")
 
           # Read README.md
           with open('README.md', 'r', encoding='utf-8') as f:
               content = f.read()
 
           # Pattern to match: Experience-X.X%2B%20Years (where X.X is any number with decimal)
-          # This will match both inside img src and anywhere else
           pattern = r'Experience-[0-9]+\.[0-9]+%2B%20Years'
-          replacement = f'Experience-{years}%2B%20Years'
+          replacement = f'Experience-{years_formatted}%2B%20Years'
 
-          # Replace the pattern
-          new_content = re.sub(pattern, replacement, content)
-
-          # Check if anything changed
-          if new_content != content:
-              # Write back
-              with open('README.md', 'w', encoding='utf-8') as f:
-                  f.write(new_content)
-              print(f"✅ Updated README with {years} years of experience")
+          # Check if pattern exists
+          if not re.search(pattern, content):
+              print(f"⚠️  Warning: Pattern not found in README.md")
+              print(f"   Looking for: Experience-[number].[number]%2B%20Years")
+              # Show current content around the badge
+              badge_match = re.search(r'Experience-[^"]+', content)
+              if badge_match:
+                  print(f"   Found: {badge_match.group(0)}")
+              # Still write to output to prevent errors
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write(f"updated=false\n")
+                  f.write(f"years={years_formatted}\n")
           else:
-              print(f"⚠️  No changes needed. Current value might already be {years}")
-
+              # Replace the pattern
+              new_content = re.sub(pattern, replacement, content)
+              
+              if new_content != content:
+                  # Write back
+                  with open('README.md', 'w', encoding='utf-8') as f:
+                      f.write(new_content)
+                  print(f"✅ Successfully updated README: Experience-{years_formatted}%2B%20Years")
+                  
+                  # Write to GITHUB_OUTPUT for next step
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"updated=true\n")
+                      f.write(f"years={years_formatted}\n")
+              else:
+                  print(f"ℹ️  No changes needed. Current value is already {years_formatted}")
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"updated=false\n")
+                      f.write(f"years={years_formatted}\n")
           EOF
 
-          # Show what was changed
-          git diff README.md || echo "No changes detected"
+      - name: Show Changes
+        if: steps.update.outputs.updated == 'true'
+        run: |
+          git diff README.md || echo "No diff available"
 
       - name: Commit and Push
+        if: steps.update.outputs.updated == 'true'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-
-          # Only commit if there are changes
-          if ! git diff --staged --quiet; then
-            git commit -m "🤖 Auto-update experience badge: ${{ steps.calculate.outputs.years }} years"
-            git push
-            echo "✅ Successfully updated and pushed changes"
-          else
-            echo "ℹ️  No changes to commit"
-          fi
+          git commit -m "🤖 Auto-update experience badge: ${{ steps.update.outputs.years }} years"
+          git push
+          echo "✅ Successfully pushed changes to repository"
