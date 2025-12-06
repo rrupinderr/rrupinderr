@@ -46,9 +46,9 @@ Software Engineer specializing in frontend development, currently working at an 
 
 ## 🎬 Content & Interests
 
-- **YouTube Channel**: [[Your Channel Name/Link](https://www.youtube.com/@rrupinderr)]
-- **Letterboxd**: [[Your Letterboxd Profile](https://letterboxd.com/rrupinderr/)]
-- **IMDB Lists**: [[Your IMDB Lists](https://www.imdb.com/user/ur87132519/lists/)]
+- **YouTube Channel**: [[Link](https://www.youtube.com/@rrupinderr)]
+- **Letterboxd**: [[Letterboxd](https://letterboxd.com/rrupinderr/)]
+- **IMDB Lists**: [[IMDB Lists](https://www.imdb.com/user/ur87132519/lists/)]
 
 ## 🎮 Personal Interests
 
