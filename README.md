@@ -30,6 +30,7 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -124,7 +125,26 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+### 📊 Contribution Activity
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rupinderjdn&theme=redical&hide_border=false&area=true&bg_color=0D1117&color=FF006E&line=FF006E&point=FF006E)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💻 Coding Activity
+
+```text
+┌─────────────────────────────────────────────────────────┐
+│  💻 Currently Working On                                  │
+│  🚀 Building AI-powered frontend solutions               │
+│  📚 Learning Go, System Design & RAG                     │
+│  ⚡ Exploring cutting-edge web technologies              │
+└─────────────────────────────────────────────────────────┘
+```
 
 </div>
 
