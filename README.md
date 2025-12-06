@@ -4,7 +4,7 @@
 
 ### Software Engineer | Frontend Expert | AI Enthusiast
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Exploring+cutting-edge+technologies;Passionate+about+AI+and+Frontend)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Exploring+cutting-edge+technologies;Passionate+about+AI+and+RAG)](https://git.io/typing-svg)
 
 </div>
 
