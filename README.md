@@ -40,7 +40,6 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -59,8 +58,10 @@
 
 ## 📈 GitHub Statistics
 
-<img height="200em" src="https://github-readme-stats.vercel.app/api?username=rupinderjdn&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF006E&icon_color=FF006E" alt="GitHub Stats" />
-<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupinderjdn&layout=compact&theme=radical&hide_border=false&bg_color=0D1117&title_color=FF006E" alt="Top Languages" />
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rupinderjdn&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF006E&icon_color=FF006E&text_color=ffffff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupinderjdn&layout=compact&theme=radical&hide_border=false&bg_color=0D1117&title_color=FF006E&text_color=ffffff" />
+</div>
 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rupinderjdn&theme=radical&hide_border=false&background=0D1117&ring=FF006E&fire=FF006E&currStreakLabel=FF006E)
 
