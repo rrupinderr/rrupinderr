@@ -46,25 +46,88 @@ jobs:
           with open('README.md', 'r', encoding='utf-8') as f:
               content = f.read()
 
-          # Pattern to match the img tag with id="experience-badge" and update the Experience value
-          # This targets the specific img tag by id for more reliable matching
-          # Match: Experience-X.X%2B%20Years (where X.X is any decimal number)
-          img_pattern = r'(<img id="experience-badge"[^>]*src="https://img\.shields\.io/badge/Experience-)[0-9]+\.[0-9]+(%2B%20Years)'
-          replacement = rf'\1{years_formatted}\2'
-
-          # Check if the img tag with id exists
-          if 'id="experience-badge"' not in content:
-              print(f"⚠️  Warning: img tag with id='experience-badge' not found in README.md")
-              print(f"   Please ensure the img tag has id='experience-badge'")
-              # Fallback: try to find any Experience badge
-              fallback_pattern = r'Experience-[0-9]+\.[0-9]+%2B%20Years'
-              if re.search(fallback_pattern, content):
-                  print(f"   Found Experience badge without id, using fallback pattern")
-                  new_content = re.sub(fallback_pattern, f'Experience-{years_formatted}%2B%20Years', content)
+          # Simple approach: Find img tag by id and replace just the number in the URL
+          # This avoids regex group reference issues
+          if 'id="experience-badge"' in content:
+              print(f"✓ Found experience badge with id='experience-badge'")
+              
+              # Find the img tag with the experience-badge id
+              img_match = re.search(r'<img id="experience-badge"[^>]*>', content)
+              if img_match:
+                  img_tag = img_match.group(0)
+                  print(f"   Found img tag")
+                  
+                  # Extract the current years value from the src URL
+                  src_match = re.search(r'src="([^"]*Experience-)([0-9]+\.[0-9]+)(%2B%20Years[^"]*)"', img_tag)
+                  if src_match:
+                      prefix = src_match.group(1)
+                      old_years = src_match.group(2)
+                      suffix = src_match.group(3)
+                      
+                      print(f"   Current value: {old_years} years")
+                      
+                      if old_years != years_formatted:
+                          # Replace the old years with new years in the img tag
+                          new_img_tag = img_tag.replace(
+                              f'Experience-{old_years}%2B%20Years',
+                              f'Experience-{years_formatted}%2B%20Years'
+                          )
+                          
+                          # Replace the img tag in the content
+                          new_content = content.replace(img_tag, new_img_tag)
+                          
+                          # Write back
+                          with open('README.md', 'w', encoding='utf-8') as f:
+                              f.write(new_content)
+                          print(f"✅ Successfully updated: {old_years} → {years_formatted} years")
+                          
+                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                              f.write(f"updated=true\n")
+                              f.write(f"years={years_formatted}\n")
+                      else:
+                          print(f"ℹ️  No changes needed. Current value is already {years_formatted} years")
+                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                              f.write(f"updated=false\n")
+                              f.write(f"years={years_formatted}\n")
+                  else:
+                      print(f"⚠️  Could not extract years value from img tag src")
+                      # Fallback: simple string replacement
+                      old_pattern = f'Experience-[0-9]+\\.[0-9]+%2B%20Years'
+                      new_pattern = f'Experience-{years_formatted}%2B%20Years'
+                      if re.search(old_pattern, content):
+                          new_content = re.sub(old_pattern, new_pattern, content)
+                          if new_content != content:
+                              with open('README.md', 'w', encoding='utf-8') as f:
+                                  f.write(new_content)
+                              print(f"✅ Updated using fallback: {years_formatted} years")
+                              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                                  f.write(f"updated=true\n")
+                                  f.write(f"years={years_formatted}\n")
+                          else:
+                              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                                  f.write(f"updated=false\n")
+                                  f.write(f"years={years_formatted}\n")
+                      else:
+                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                              f.write(f"updated=false\n")
+                              f.write(f"years={years_formatted}\n")
+              else:
+                  print(f"⚠️  Could not find img tag with id='experience-badge'")
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"updated=false\n")
+                      f.write(f"years={years_formatted}\n")
+          else:
+              print(f"⚠️  Warning: img tag with id='experience-badge' not found")
+              # Fallback: try simple pattern replacement
+              old_pattern = r'Experience-[0-9]+\.[0-9]+%2B%20Years'
+              new_pattern = f'Experience-{years_formatted}%2B%20Years'
+              if re.search(old_pattern, content):
+                  print(f"   Using fallback pattern")
+                  new_content = re.sub(old_pattern, new_pattern, content)
                   if new_content != content:
                       with open('README.md', 'w', encoding='utf-8') as f:
                           f.write(new_content)
-                      print(f"✅ Updated using fallback pattern: Experience-{years_formatted}%2B%20Years")
+                      print(f"✅ Updated using fallback: {years_formatted} years")
                       with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                           f.write(f"updated=true\n")
                           f.write(f"years={years_formatted}\n")
@@ -76,55 +139,6 @@ jobs:
                   with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                       f.write(f"updated=false\n")
                       f.write(f"years={years_formatted}\n")
-          else:
-              # Check if pattern matches before attempting replacement
-              if re.search(img_pattern, content):
-                  print(f"✓ Found experience badge with id='experience-badge'")
-                  # Replace the pattern in the img tag
-                  new_content = re.sub(img_pattern, replacement, content)
-                  
-                  if new_content != content:
-                      # Write back
-                      with open('README.md', 'w', encoding='utf-8') as f:
-                          f.write(new_content)
-                      print(f"✅ Successfully updated experience badge: {years_formatted} years")
-                      
-                      # Write to GITHUB_OUTPUT for next step
-                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                          f.write(f"updated=true\n")
-                          f.write(f"years={years_formatted}\n")
-                  else:
-                      print(f"ℹ️  No changes needed. Current value is already {years_formatted} years")
-                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                          f.write(f"updated=false\n")
-                          f.write(f"years={years_formatted}\n")
-              else:
-                  print(f"⚠️  Warning: Could not match the img tag pattern")
-                  print(f"   Pattern: {img_pattern}")
-                  # Try to find what's actually there
-                  badge_match = re.search(r'<img id="experience-badge"[^>]*src="([^"]+)"', content)
-                  if badge_match:
-                      print(f"   Found src: {badge_match.group(1)[:80]}...")
-                  # Use fallback pattern
-                  fallback_pattern = r'Experience-[0-9]+\.[0-9]+%2B%20Years'
-                  if re.search(fallback_pattern, content):
-                      print(f"   Using fallback pattern")
-                      new_content = re.sub(fallback_pattern, f'Experience-{years_formatted}%2B%20Years', content)
-                      if new_content != content:
-                          with open('README.md', 'w', encoding='utf-8') as f:
-                              f.write(new_content)
-                          print(f"✅ Updated using fallback: Experience-{years_formatted}%2B%20Years")
-                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                              f.write(f"updated=true\n")
-                              f.write(f"years={years_formatted}\n")
-                      else:
-                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                              f.write(f"updated=false\n")
-                              f.write(f"years={years_formatted}\n")
-                  else:
-                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                          f.write(f"updated=false\n")
-                          f.write(f"years={years_formatted}\n")
           EOF
 
       - name: Show Changes
