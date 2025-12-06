@@ -2,8 +2,6 @@
 
 Software Engineer specializing in frontend development, currently working at an AI startup. Passionate about building scalable web applications and exploring cutting-edge technologies.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rupinderjdn&show_icons=true&theme=radical)
-
 ## 💼 Professional Experience
 
 - **Frontend Expert** - Specialized in building modern, responsive user interfaces
@@ -37,7 +35,10 @@ Software Engineer specializing in frontend development, currently working at an 
 
 ## 📈 GitHub Statistics
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rupinderjdn&layout=compact&theme=radical)
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rupinderjdn&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupinderjdn&layout=compact&theme=radical&hide_border=false" alt="Top Languages" />
+</div>
 
 ## 📫 Connect With Me
 
