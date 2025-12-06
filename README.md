@@ -4,7 +4,7 @@
 
 ### Software Engineer | Frontend Expert | AI Enthusiast
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Exploring+cutting-edge+technologies;Passionate+about+AI+and+RAG)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Learning+System-design+and+RAG;Passionate+about+AI+and+RAG)](https://git.io/typing-svg)
 
 </div>
 
@@ -14,22 +14,22 @@
   
 ### 🚀 Professional Experience
 
-#### <span style="color: #1e40af">**Software Engineer** at **Pascal AI**</span> | _January 2025 - Present_
+#### <strong style="color: #1e40af">Software Engineer</strong> at <strong style="color: #1e40af">Pascal AI</strong> | _January 2025 - Present_
 
-Building an <span style="color: #1e40af">**AI Financial Analyst**</span> platform for equity research automation in <span style="color: #1e40af">**Finance Tech**</span>
+Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platform for equity research automation in <strong style="color: #1e40af">Finance Tech</strong>
 
-• Leading frontend development with <span style="color: #1e40af">**Next.js**</span> and <span style="color: #1e40af">**TypeScript**</span> for scalable financial applications  
+• Leading frontend development with <strong style="color: #1e40af">Next.js</strong> and <strong style="color: #1e40af">TypeScript</strong> for scalable financial applications  
 • End-to-end feature ownership: database design → backend APIs (Golang) → frontend integration  
-• <span style="color: #1e40af">**40% performance improvement**</span> in page load and render time through optimizations
+• <strong style="color: #1e40af">40% performance improvement</strong> in page load and render time through optimizations
 
 ---
 
-#### <span style="color: #1e40af">**Software Engineer** at **Finmechanics**</span> | _July 2022 - December 2024_
+#### <strong style="color: #1e40af">Software Engineer</strong> at <strong style="color: #1e40af">Finmechanics</strong> | _July 2022 - December 2024_
 
-<span style="color: #1e40af">**Finance Tech**</span> specialist: Led frontend for <span style="color: #1e40af">**FxOptions trading platform**</span> and treasury management systems
+<strong style="color: #1e40af">Finance Tech</strong> specialist: Led frontend for <strong style="color: #1e40af">FxOptions trading platform</strong> and treasury management systems
 
 • End-to-end feature development: requirements → architecture design → deployment for India's largest retail bank  
-• <span style="color: #1e40af">**Performance optimization**</span>: Reduced login time from 10min → 30s, trade latency from 15s → 1-3s  
+• <strong style="color: #1e40af">Performance optimization</strong>: Reduced login time from 10min → 30s, trade latency from 15s → 1-3s  
 • Full-stack development: ReactJS, Spring Boot, PostgreSQL | Load balancing (Apache HTTP) | NFS implementation
 
 </div>
