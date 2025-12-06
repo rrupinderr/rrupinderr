@@ -2,37 +2,57 @@ name: Update Experience Badge
 
 on:
   schedule:
-    - cron: '0 0 1 * *'  # Runs on the 1st of every month
-  workflow_dispatch:  # Allows manual trigger
+    # Run on the 1st day of every month at 00:00 UTC
+    - cron: "0 0 1 * *"
+  workflow_dispatch: # Allow manual triggering
 
 jobs:
-  update-badge:
+  update-experience:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+    permissions:
+      contents: write
 
-      - name: Calculate Experience
-        id: calc_experience
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate Experience Years
+        id: calculate
         run: |
-          START_DATE="2022-07-01"
-          CURRENT_DATE=$(date +%Y-%m-%d)
-          DAYS=$(( ($(date -d "$CURRENT_DATE" +%s) - $(date -d "$START_DATE" +%s)) / 86400 ))
-          YEARS=$(echo "scale=1; $DAYS / 365.25" | bc)
-          echo "years=$YEARS" >> $GITHUB_OUTPUT
-          echo "Calculated experience: $YEARS years"
+          python3 << 'EOF'
+          from datetime import date
+          import os
+
+          start_date = date(2021, 7, 1)
+          current_date = date.today()
+
+          # Calculate days difference
+          days = (current_date - start_date).days
+
+          # Calculate years with one decimal place
+          years = days / 365.25
+          years_formatted = f"{years:.1f}"
+
+          # Write to GITHUB_OUTPUT
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"years={years_formatted}\n")
+
+          print(f"Calculated experience: {years_formatted} years")
+          EOF
 
       - name: Update README
         run: |
-          YEARS="${{ steps.calc_experience.outputs.years }}"
-          sed -i "s/Experience-[0-9.]\+%2B%20Years/Experience-${YEARS}%2B%20Years/g" README.md
+          YEARS="${{ steps.calculate.outputs.years }}"
 
-      - name: Commit and Push Changes
+          # Update the badge URL in README.md
+          sed -i "s/Experience-[0-9.]\\+%2B%20Years/Experience-${YEARS}%2B%20Years/g" README.md
+
+          echo "Updated README with $YEARS years of experience"
+
+      - name: Commit and Push
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add README.md
-          git diff --staged --quiet || (git commit -m "Update experience badge to ${{ steps.calc_experience.outputs.years }} years" && git push)
-
+          git diff --staged --quiet || git commit -m "🤖 Auto-update experience badge: ${{ steps.calculate.outputs.years }} years"
+          git push
