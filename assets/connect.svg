@@ -1,0 +1,58 @@
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="connectGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Network nodes -->
+  <circle cx="100" cy="100" r="25" fill="url(#connectGrad)" opacity="0.8">
+    <animate attributeName="r" values="25;30;25" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="250" cy="100" r="25" fill="url(#connectGrad)" opacity="0.8">
+    <animate attributeName="r" values="25;30;25" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="400" cy="100" r="25" fill="url(#connectGrad)" opacity="0.8">
+    <animate attributeName="r" values="25;30;25" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Connection lines -->
+  <line x1="125" y1="100" x2="225" y2="100" stroke="url(#connectGrad)" stroke-width="3" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;4;2" dur="2s" repeatCount="indefinite"/>
+  </line>
+  
+  <line x1="275" y1="100" x2="375" y2="100" stroke="url(#connectGrad)" stroke-width="3" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;4;2" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </line>
+  
+  <!-- Pulse effect -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="30;50;30" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="250" cy="100" r="30" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="30;50;30" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="400" cy="100" r="30" fill="none" stroke="#3b82f6" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="30;50;30" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Icons in nodes -->
+  <text x="100" y="110" font-family="Arial" font-size="20" fill="white" text-anchor="middle">💼</text>
+  <text x="250" y="110" font-family="Arial" font-size="20" fill="white" text-anchor="middle">📧</text>
+  <text x="400" y="110" font-family="Arial" font-size="20" fill="white" text-anchor="middle">🔗</text>
+</svg>
+

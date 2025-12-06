@@ -50,9 +50,13 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ---
 
-<div align="center">
+<div align="left">
 
 ## 🛠️ Technical Skills
+
+<table>
+<tr>
+<td width="60%">
 
 ### Frontend Expertise
 
@@ -78,6 +82,15 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ![System Design](https://img.shields.io/badge/System_Design-FF6B6B?style=for-the-badge&logo=diagramsdotnet&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-9B59B6?style=for-the-badge&logo=openai&logoColor=white)
 
+</td>
+<td width="40%" align="center">
+
+<img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/coding.svg" alt="Coding animation" width="100%"/>
+
+</td>
+</tr>
+</table>
+
 </div>
 
 ---
@@ -101,6 +114,10 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ## 📫 Connect With Me
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/connect.svg" alt="Connect animation" width="100%" style="max-width: 500px;"/>
+</div>
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rupinder-s-341233193/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rss264264@gmail.com)
 
@@ -112,9 +129,22 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ## 🎬 Content & Interests
 
+<table>
+<tr>
+<td width="50%" align="center">
+
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@rrupinderr)
 [![Letterboxd](https://img.shields.io/badge/Letterboxd-00D735?style=for-the-badge&logo=letterboxd&logoColor=white)](https://letterboxd.com/rrupinderr/)
 [![IMDB](https://img.shields.io/badge/IMDB-F5C518?style=for-the-badge&logo=imdb&logoColor=black)](https://www.imdb.com/user/ur87132519/lists/)
+
+</td>
+<td width="50%" align="center">
+
+<img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/movie.svg" alt="Movie watching animation" width="100%"/>
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -153,37 +183,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 <div align="center">
 
-### 🌊 Soothing Wave Animation
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/wave.svg" width="100%" height="150" alt="Soothing wave animation" />
-</div>
-
-</div>
-
----
-
----
-
-<div align="center">
-
-### 💻 Coding Activity
-
-```text
-┌─────────────────────────────────────────────────────────┐
-│  💻 Currently Working On                                  │
-│  🚀 Building AI-powered frontend solutions               │
-│  📚 Learning Go, System Design & RAG                     │
-│  ⚡ Exploring cutting-edge web technologies              │
-└─────────────────────────────────────────────────────────┘
-```
-
-</div>
-
----
-
-<div align="center">
-
 ### 📝 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
@@ -212,10 +211,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
-
----
-
-<div align="center">
 
 ---
 
