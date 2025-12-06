@@ -10,7 +10,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
   
 ### 🚀 Professional Experience
 
