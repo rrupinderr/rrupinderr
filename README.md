@@ -8,9 +8,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Learning+System-design+and+RAG;Passionate+about+AI+and+RAG)](https://git.io/typing-svg)
 
-### 🏆 GitHub Profile Trophy
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=rupinderjdn&theme=radical&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/wave.svg" width="100%" height="150" alt="Wave animation" />
 
 </div>
 
@@ -155,9 +153,11 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 <div align="center">
 
-### 🐍 Contribution Snake
+### 🌊 Soothing Wave Animation
 
-![Snake animation](https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/output/github-contribution-grid-snake.svg)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/wave.svg" width="100%" height="150" alt="Soothing wave animation" />
+</div>
 
 </div>
 
