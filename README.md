@@ -118,8 +118,19 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
   <img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/connect.svg" alt="Connect animation" width="100%" style="max-width: 500px;"/>
 </div>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rupinder-s-341233193/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rss264264@gmail.com)
+<br/>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/rupinder-s-341233193/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="60" width="auto"/>
+</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:rss264264@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="60" width="auto"/>
+</a>
+
+<br/><br/>
 
 </div>
 
@@ -133,9 +144,25 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 <tr>
 <td width="50%" align="center">
 
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@rrupinderr)
-[![Letterboxd](https://img.shields.io/badge/Letterboxd-00D735?style=for-the-badge&logo=letterboxd&logoColor=white)](https://letterboxd.com/rrupinderr/)
-[![IMDB](https://img.shields.io/badge/IMDB-F5C518?style=for-the-badge&logo=imdb&logoColor=black)](https://www.imdb.com/user/ur87132519/lists/)
+<br/>
+
+<a href="https://www.youtube.com/@rrupinderr" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" height="60" width="auto"/>
+</a>
+
+<br/><br/>
+
+<a href="https://letterboxd.com/rrupinderr/" target="_blank">
+  <img src="https://img.shields.io/badge/Letterboxd-00D735?style=for-the-badge&logo=letterboxd&logoColor=white" alt="Letterboxd" height="60" width="auto"/>
+</a>
+
+<br/><br/>
+
+<a href="https://www.imdb.com/user/ur87132519/lists/" target="_blank">
+  <img src="https://img.shields.io/badge/IMDB-F5C518?style=for-the-badge&logo=imdb&logoColor=black" alt="IMDB" height="60" width="auto"/>
+</a>
+
+<br/>
 
 </td>
 <td width="50%" align="center">
@@ -176,17 +203,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ### 📊 Contribution Activity
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rupinderjdn&theme=redical&hide_border=false&area=true&bg_color=0D1117&color=FF006E&line=FF006E&point=FF006E)
-
-</div>
-
----
-
-<div align="center">
-
-### 📝 Recent GitHub Activity
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
 
 </div>
 
