@@ -48,7 +48,8 @@ jobs:
 
           # Pattern to match the img tag with id="experience-badge" and update the Experience value
           # This targets the specific img tag by id for more reliable matching
-          img_pattern = r'(<img id="experience-badge"[^>]*src="https://img\.shields\.io/badge/Experience-)[0-9]+\.[0-9]+(%2B%20Years[^"]*")'
+          # Match: Experience-X.X%2B%20Years (where X.X is any decimal number)
+          img_pattern = r'(<img id="experience-badge"[^>]*src="https://img\.shields\.io/badge/Experience-)[0-9]+\.[0-9]+(%2B%20Years)'
           replacement = rf'\1{years_formatted}\2'
 
           # Check if the img tag with id exists
@@ -76,24 +77,54 @@ jobs:
                       f.write(f"updated=false\n")
                       f.write(f"years={years_formatted}\n")
           else:
-              # Replace the pattern in the img tag
-              new_content = re.sub(img_pattern, replacement, content)
-              
-              if new_content != content:
-                  # Write back
-                  with open('README.md', 'w', encoding='utf-8') as f:
-                      f.write(new_content)
-                  print(f"✅ Successfully updated experience badge: {years_formatted} years")
+              # Check if pattern matches before attempting replacement
+              if re.search(img_pattern, content):
+                  print(f"✓ Found experience badge with id='experience-badge'")
+                  # Replace the pattern in the img tag
+                  new_content = re.sub(img_pattern, replacement, content)
                   
-                  # Write to GITHUB_OUTPUT for next step
-                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                      f.write(f"updated=true\n")
-                      f.write(f"years={years_formatted}\n")
+                  if new_content != content:
+                      # Write back
+                      with open('README.md', 'w', encoding='utf-8') as f:
+                          f.write(new_content)
+                      print(f"✅ Successfully updated experience badge: {years_formatted} years")
+                      
+                      # Write to GITHUB_OUTPUT for next step
+                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                          f.write(f"updated=true\n")
+                          f.write(f"years={years_formatted}\n")
+                  else:
+                      print(f"ℹ️  No changes needed. Current value is already {years_formatted} years")
+                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                          f.write(f"updated=false\n")
+                          f.write(f"years={years_formatted}\n")
               else:
-                  print(f"ℹ️  No changes needed. Current value is already {years_formatted} years")
-                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                      f.write(f"updated=false\n")
-                      f.write(f"years={years_formatted}\n")
+                  print(f"⚠️  Warning: Could not match the img tag pattern")
+                  print(f"   Pattern: {img_pattern}")
+                  # Try to find what's actually there
+                  badge_match = re.search(r'<img id="experience-badge"[^>]*src="([^"]+)"', content)
+                  if badge_match:
+                      print(f"   Found src: {badge_match.group(1)[:80]}...")
+                  # Use fallback pattern
+                  fallback_pattern = r'Experience-[0-9]+\.[0-9]+%2B%20Years'
+                  if re.search(fallback_pattern, content):
+                      print(f"   Using fallback pattern")
+                      new_content = re.sub(fallback_pattern, f'Experience-{years_formatted}%2B%20Years', content)
+                      if new_content != content:
+                          with open('README.md', 'w', encoding='utf-8') as f:
+                              f.write(new_content)
+                          print(f"✅ Updated using fallback: Experience-{years_formatted}%2B%20Years")
+                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                              f.write(f"updated=true\n")
+                              f.write(f"years={years_formatted}\n")
+                      else:
+                          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                              f.write(f"updated=false\n")
+                              f.write(f"years={years_formatted}\n")
+                  else:
+                      with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                          f.write(f"updated=false\n")
+                          f.write(f"years={years_formatted}\n")
           EOF
 
       - name: Show Changes
