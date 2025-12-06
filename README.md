@@ -14,11 +14,43 @@
   
 ### 🚀 Professional Experience
 
-**Frontend Expert** at an **AI Startup** | Specialized in building modern, responsive user interfaces and innovative AI-powered solutions
+**Software Engineer** at **Pascal AI** | _January 2025 - Present_  
+Building an **AI Financial Analyst** platform for equity research, automating workflows in the **Finance Tech** domain
+
+**Frontend Development & Technology Stack:**
+• Leading entire frontend development using **Next.js** and **TypeScript** for scalable, type-safe financial applications  
+• Architecting and implementing responsive UI components with modern React patterns and state management  
+• Delivering performance optimizations achieving 40% improvement in page load and render time for financial platforms
+
+**Full-Stack Feature Development:**
+• Owning end-to-end feature implementation: from database schema design to backend API development and frontend integration  
+• Building seamless integrations across the full stack—database, backend services (Golang), and frontend components—for finance tech solutions  
+• Contributing to backend API integration, debugging Golang services, and ensuring robust fintech infrastructure
+
+**Product Focus:**
+• Developing AI-powered financial analysis tools that automate equity research workflows and enhance decision-making processes
+
+**Software Engineer** at **Finmechanics** | _July 2022 - December 2024_  
+Specialized in **Finance Tech**: Led frontend development of **FxOptions trading platform** and worked on **Fx trading and treasury management platforms**  
+• Handled features end-to-end in finance tech: from requirements gathering to deployment and client delivery for financial systems  
+• Designed system architecture and architected modular components for high-performance financial trading applications  
+• Implemented load balancing using Apache HTTP Server for distributed finance tech system architecture  
+• Configured and implemented NFS (Network File System) for shared storage in financial technology infrastructure  
+• Optimized performance in finance tech: reduced login time from 10 minutes to 30 seconds, cut trade booking latency from 15s to 1-3s  
+• Developed full-stack finance tech solutions using ReactJS, Spring Boot, and PostgreSQL for India's largest retail bank  
+• Led end-to-end integration of remittance module with payment gateway integration in financial technology platforms
 
 </div>
 
 ---
+
+<div align="center">
+
+### 🎓 Education
+
+**Bachelor of Technology (B.Tech)** - NSUT East Campus | _2018 - 2022_
+
+</div>
 
 ---
 
