@@ -123,11 +123,11 @@ Building an <span style="color: #1e40af; font-weight: bold;">AI Financial Analys
 <br/>
 
 <a href="https://www.linkedin.com/in/rupinder-s-341233193/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="75" width="auto" style="height: 75px;"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="45" width="auto" style="height: 45px;"/>
 </a>
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:rss264264@gmail.com" target="_blank">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="75" width="auto" style="height: 75px;"/>
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" height="45" width="auto" style="height: 45px;"/>
 </a>
 
 <br/><br/>
@@ -147,19 +147,19 @@ Building an <span style="color: #1e40af; font-weight: bold;">AI Financial Analys
 <br/>
 
 <a href="https://www.youtube.com/@rrupinderr" target="_blank">
-  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" height="75" width="auto" style="height: 75px;"/>
+  <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" height="45" width="auto" style="height: 45px;"/>
 </a>
 
 <br/><br/>
 
 <a href="https://letterboxd.com/rrupinderr/" target="_blank">
-  <img src="https://img.shields.io/badge/Letterboxd-00D735?style=for-the-badge&logo=letterboxd&logoColor=white" alt="Letterboxd" height="75" width="auto" style="height: 75px;"/>
+  <img src="https://img.shields.io/badge/Letterboxd-00D735?style=for-the-badge&logo=letterboxd&logoColor=white" alt="Letterboxd" height="45" width="auto" style="height: 45px;"/>
 </a>
 
 <br/><br/>
 
 <a href="https://www.imdb.com/user/ur87132519/lists/" target="_blank">
-  <img src="https://img.shields.io/badge/IMDB-F5C518?style=for-the-badge&logo=imdb&logoColor=black" alt="IMDB" height="75" width="auto" style="height: 75px;"/>
+  <img src="https://img.shields.io/badge/IMDB-F5C518?style=for-the-badge&logo=imdb&logoColor=black" alt="IMDB" height="45" width="auto" style="height: 45px;"/>
 </a>
 
 <br/>
