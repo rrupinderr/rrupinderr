@@ -4,12 +4,6 @@
 
 ### Software Engineer | Frontend Expert | AI Enthusiast
 
-<!-- Audio Player - Update the src with your audio file URL -->
-<audio autoplay loop controls style="width: 100%; max-width: 400px; margin: 10px 0;">
-  <source src="https://raw.githubusercontent.com/rrupinderr/rrupinderr/main/assets/background-music.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
 ![Experience](https://img.shields.io/badge/Experience-3.5%2B%20Years-blue?style=for-the-badge&logo=clockify&logoColor=white&labelColor=1e40af)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Learning+System-design+and+RAG;Passionate+about+AI+and+RAG)](https://git.io/typing-svg)
