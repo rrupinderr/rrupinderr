@@ -14,31 +14,23 @@
   
 ### 🚀 Professional Experience
 
-**Software Engineer** at **Pascal AI** | _January 2025 - Present_  
-Building an **AI Financial Analyst** platform for equity research, automating workflows in the **Finance Tech** domain
+#### <span style="color: #1e40af">**Software Engineer** at **Pascal AI**</span> | _January 2025 - Present_
 
-**Frontend Development & Technology Stack:**
-• Leading entire frontend development using **Next.js** and **TypeScript** for scalable, type-safe financial applications  
-• Architecting and implementing responsive UI components with modern React patterns and state management  
-• Delivering performance optimizations achieving 40% improvement in page load and render time for financial platforms
+Building an <span style="color: #1e40af">**AI Financial Analyst**</span> platform for equity research automation in <span style="color: #1e40af">**Finance Tech**</span>
 
-**Full-Stack Feature Development:**
-• Owning end-to-end feature implementation: from database schema design to backend API development and frontend integration  
-• Building seamless integrations across the full stack—database, backend services (Golang), and frontend components—for finance tech solutions  
-• Contributing to backend API integration, debugging Golang services, and ensuring robust fintech infrastructure
+• Leading frontend development with <span style="color: #1e40af">**Next.js**</span> and <span style="color: #1e40af">**TypeScript**</span> for scalable financial applications  
+• End-to-end feature ownership: database design → backend APIs (Golang) → frontend integration  
+• <span style="color: #1e40af">**40% performance improvement**</span> in page load and render time through optimizations
 
-**Product Focus:**
-• Developing AI-powered financial analysis tools that automate equity research workflows and enhance decision-making processes
+---
 
-**Software Engineer** at **Finmechanics** | _July 2022 - December 2024_  
-Specialized in **Finance Tech**: Led frontend development of **FxOptions trading platform** and worked on **Fx trading and treasury management platforms**  
-• Handled features end-to-end in finance tech: from requirements gathering to deployment and client delivery for financial systems  
-• Designed system architecture and architected modular components for high-performance financial trading applications  
-• Implemented load balancing using Apache HTTP Server for distributed finance tech system architecture  
-• Configured and implemented NFS (Network File System) for shared storage in financial technology infrastructure  
-• Optimized performance in finance tech: reduced login time from 10 minutes to 30 seconds, cut trade booking latency from 15s to 1-3s  
-• Developed full-stack finance tech solutions using ReactJS, Spring Boot, and PostgreSQL for India's largest retail bank  
-• Led end-to-end integration of remittance module with payment gateway integration in financial technology platforms
+#### <span style="color: #1e40af">**Software Engineer** at **Finmechanics**</span> | _July 2022 - December 2024_
+
+<span style="color: #1e40af">**Finance Tech**</span> specialist: Led frontend for <span style="color: #1e40af">**FxOptions trading platform**</span> and treasury management systems
+
+• End-to-end feature development: requirements → architecture design → deployment for India's largest retail bank  
+• <span style="color: #1e40af">**Performance optimization**</span>: Reduced login time from 10min → 30s, trade latency from 15s → 1-3s  
+• Full-stack development: ReactJS, Spring Boot, PostgreSQL | Load balancing (Apache HTTP) | NFS implementation
 
 </div>
 
