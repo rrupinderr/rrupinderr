@@ -34,7 +34,7 @@ jobs:
           import os
 
           # Calculate experience years
-          start_date = date(2021, 7, 1)
+          start_date = date(2022, 7, 1)
           current_date = date.today()
           days = (current_date - start_date).days
           years = days / 365.25
