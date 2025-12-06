@@ -114,19 +114,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 </div>
 
----
-
-<div align="center">
-
-## 🎮 Personal Interests
-
-![Gaming](https://img.shields.io/badge/Gaming-7289DA?style=for-the-badge&logo=twitch&logoColor=white) Single-player experiences enthusiast  
-![Horror](https://img.shields.io/badge/Horror_Movies-FF0000?style=for-the-badge&logo=themoviedatabase&logoColor=white) Horror film aficionado
-
-</div>
-
----
-
 <div align="center">
 
 ### ⚡ Quick Stats
