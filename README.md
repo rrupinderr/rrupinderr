@@ -4,11 +4,17 @@
 
 ### Software Engineer | Frontend Expert | AI Enthusiast
 
+<!-- Audio Player - Update the src with your audio file URL -->
+<audio autoplay loop controls style="width: 100%; max-width: 400px; margin: 10px 0;">
+  <source src="https://raw.githubusercontent.com/rrupinderr/rrupinderr/main/assets/background-music.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
 ![Experience](https://img.shields.io/badge/Experience-3.5%2B%20Years-blue?style=for-the-badge&logo=clockify&logoColor=white&labelColor=1e40af)
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Learning+System-design+and+RAG;Passionate+about+AI+and+RAG)](https://git.io/typing-svg)
 
-<img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/wave.svg" width="100%" height="150" alt="Wave animation" />
+<img src="https://raw.githubusercontent.com/rrupinderr/rrupinderr/main/assets/wave.svg" width="100%" height="150" alt="Wave animation" />
 
 </div>
 
@@ -85,7 +91,7 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 </td>
 <td width="40%" align="center">
 
-<img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/coding.svg" alt="Coding animation" width="100%"/>
+<img src="https://raw.githubusercontent.com/rrupinderr/rrupinderr/main/assets/coding.svg" alt="Coding animation" width="100%"/>
 
 </td>
 </tr>
@@ -100,11 +106,11 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ## 📈 GitHub Statistics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rupinderjdn&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF006E&icon_color=FF006E&text_color=ffffff" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rupinderjdn&layout=compact&theme=radical&hide_border=false&bg_color=0D1117&title_color=FF006E&text_color=ffffff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=rrupinderr&show_icons=true&theme=radical&hide_border=false&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=FF006E&icon_color=FF006E&text_color=ffffff" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rrupinderr&layout=compact&theme=radical&hide_border=false&bg_color=0D1117&title_color=FF006E&text_color=ffffff" />
 </div>
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rupinderjdn&theme=radical&hide_border=false&background=0D1117&ring=FF006E&fire=FF006E&currStreakLabel=FF006E)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=rrupinderr&theme=radical&hide_border=false&background=0D1117&ring=FF006E&fire=FF006E&currStreakLabel=FF006E)
 
 </div>
 
@@ -115,7 +121,7 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ## 📫 Connect With Me
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/connect.svg" alt="Connect animation" width="100%" style="max-width: 500px;"/>
+  <img src="https://raw.githubusercontent.com/rrupinderr/rrupinderr/main/assets/connect.svg" alt="Connect animation" width="100%" style="max-width: 500px;"/>
 </div>
 
 <br/>
@@ -167,7 +173,7 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 </td>
 <td width="50%" align="center">
 
-<img src="https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/main/assets/movie.svg" alt="Movie watching animation" width="100%"/>
+<img src="https://raw.githubusercontent.com/rrupinderr/rrupinderr/main/assets/movie.svg" alt="Movie watching animation" width="100%"/>
 
 </td>
 </tr>
@@ -179,9 +185,9 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ### ⚡ Quick Stats
 
-![Profile Views](https://komarev.com/ghpvc/?username=rupinderjdn&color=FF006E&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=rrupinderr&color=FF006E&style=for-the-badge&label=PROFILE+VIEWS)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/rupinderjdn/rupinderjdn?color=FF006E&style=for-the-badge&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/rrupinderr/rrupinderr?color=FF006E&style=for-the-badge&logo=github)
 
 </div>
 
@@ -189,8 +195,8 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ### 🌟 Featured
 
-![GitHub followers](https://img.shields.io/github/followers/rupinderjdn?style=social&label=Follow)
-![GitHub stars](https://img.shields.io/github/stars/rupinderjdn?style=social&label=Stars)
+![GitHub followers](https://img.shields.io/github/followers/rrupinderr?style=social&label=Follow)
+![GitHub stars](https://img.shields.io/github/stars/rrupinderr?style=social&label=Stars)
 
 </div>
 
@@ -198,7 +204,7 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ### 📊 Contribution Activity
 
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rupinderjdn&theme=redical&hide_border=false&area=true&bg_color=0D1117&color=FF006E&line=FF006E&point=FF006E)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rrupinderr&theme=redical&hide_border=false&area=true&bg_color=0D1117&color=FF006E&line=FF006E&point=FF006E)
 
 </div>
 
@@ -206,9 +212,9 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ### 🎯 Dynamic Stats
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rupinderjdn/rupinderjdn?color=FF006E&style=for-the-badge&logo=github)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rrupinderr/rrupinderr?color=FF006E&style=for-the-badge&logo=github)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/rupinderjdn/rupinderjdn?color=FF006E&style=for-the-badge&logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size/rrupinderr/rrupinderr?color=FF006E&style=for-the-badge&logo=github)
 
 </div>
 
