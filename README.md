@@ -185,8 +185,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 </div>
 
----
-
 <div align="center">
 
 ### 🌟 Featured
@@ -196,8 +194,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 </div>
 
----
-
 <div align="center">
 
 ### 📊 Contribution Activity
@@ -205,8 +201,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=rupinderjdn&theme=redical&hide_border=false&area=true&bg_color=0D1117&color=FF006E&line=FF006E&point=FF006E)
 
 </div>
-
----
 
 <div align="center">
 
@@ -218,8 +212,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 </div>
 
----
-
 <div align="center">
 
 ### 💬 Random Dev Quote
@@ -227,8 +219,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
-
----
 
 <div align="center">
 
