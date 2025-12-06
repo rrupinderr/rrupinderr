@@ -214,8 +214,6 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 <div align="center">
 
-### 💬 Random Dev Quote
-
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 </div>
