@@ -4,7 +4,13 @@
 
 ### Software Engineer | Frontend Expert | AI Enthusiast
 
+![Experience](https://img.shields.io/badge/Experience-3.5%2B%20Years-blue?style=for-the-badge&logo=clockify&logoColor=white&labelColor=1e40af)
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FF006E&center=true&vCenter=true&width=600&lines=Building+scalable+web+applications;Learning+System-design+and+RAG;Passionate+about+AI+and+RAG)](https://git.io/typing-svg)
+
+### 🏆 GitHub Profile Trophy
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=rupinderjdn&theme=radical&column=7&margin-w=15&margin-h=15)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -120,6 +126,8 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 ![Profile Views](https://komarev.com/ghpvc/?username=rupinderjdn&color=FF006E&style=for-the-badge&label=PROFILE+VIEWS)
 
+![GitHub last commit](https://img.shields.io/github/last-commit/rupinderjdn/rupinderjdn?color=FF006E&style=for-the-badge&logo=github)
+
 </div>
 
 ---
@@ -147,6 +155,18 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 
 <div align="center">
 
+### 🐍 Contribution Snake
+
+![Snake animation](https://raw.githubusercontent.com/rupinderjdn/rupinderjdn/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+---
+
+<div align="center">
+
 ### 💻 Coding Activity
 
 ```text
@@ -159,6 +179,43 @@ Building an <strong style="color: #1e40af">AI Financial Analyst</strong> platfor
 ```
 
 </div>
+
+---
+
+<div align="center">
+
+### 📝 Recent GitHub Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</div>
+
+---
+
+<div align="center">
+
+### 🎯 Dynamic Stats
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rupinderjdn/rupinderjdn?color=FF006E&style=for-the-badge&logo=github)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/rupinderjdn/rupinderjdn?color=FF006E&style=for-the-badge&logo=github)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💬 Random Dev Quote
+
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+</div>
+
+---
+
+<div align="center">
 
 ---
 
