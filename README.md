@@ -112,6 +112,33 @@ Building an <span style="color: #1e40af; font-weight: bold;">AI Financial Analys
 
 <div align="center">
 
+## 🔥 Recent Activity
+
+</div>
+
+<div align="left">
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+<div style="background-color: #0D1117; padding: 15px; border-radius: 10px; border-left: 4px solid #FF006E;">
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</div>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<div align="center">
+
 ## 📫 Connect With Me
 
 <div align="center">
