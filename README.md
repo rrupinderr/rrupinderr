@@ -231,6 +231,14 @@ Building an <span style="color: #1e40af; font-weight: bold;">AI Financial Analys
 
 <div align="center">
 
+### 🐍 Contribution Snake
+
+![Snake animation](https://raw.githubusercontent.com/rrupinderr/rrupinderr/gh-pages/output/github-contribution-grid-snake.svg)
+
+</div>
+
+<div align="center">
+
 ### 🎯 Dynamic Stats
 
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/rrupinderr/rrupinderr?color=FF006E&style=for-the-badge&logo=github)
