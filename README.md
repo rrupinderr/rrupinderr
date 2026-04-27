@@ -125,6 +125,9 @@ Building an <span style="color: #1e40af; font-weight: bold;">AI Financial Analys
 <div style="background-color: #0D1117; padding: 15px; border-radius: 10px; border-left: 4px solid #FF006E;">
 
 <!--START_SECTION:activity-->
+1. ❗ Opened issue [#978](https://github.com/Stremio/stremio-core/issues/978) in [Stremio/stremio-core](https://github.com/Stremio/stremio-core)
+2. 🗣 Commented on [#977](https://github.com/Stremio/stremio-core/issues/977#issuecomment-4322679255) in [Stremio/stremio-core](https://github.com/Stremio/stremio-core)
+3. ❗ Opened issue [#977](https://github.com/Stremio/stremio-core/issues/977) in [Stremio/stremio-core](https://github.com/Stremio/stremio-core)
 <!--END_SECTION:activity-->
 
 </div>
